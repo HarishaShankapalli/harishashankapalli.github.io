@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Purple Elegance</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/css/styles.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-gradient-purple py-3">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">PurpleElegance</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contact Section -->
+  <section class="contact-section py-5 d-flex align-items-center">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <div class="contact-card shadow-lg">
+            <div class="row g-0">
+              
+              <!-- Left Info -->
+              <div class="col-md-5 info-panel d-flex flex-column justify-content-center p-5 text-white">
+                <h2 class="fw-bold mb-4">Get in Touch</h2>
+                <ul class="list-unstyled">
+                  <li class="mb-3"><i class="bi bi-geo-alt-fill me-2"></i> 123 Purple Street, Hyderabad</li>
+                  <li class="mb-3"><i class="bi bi-telephone-fill me-2"></i> +91 98765 43210</li>
+                  <li class="mb-3"><i class="bi bi-envelope-fill me-2"></i> info@purpleelegance.com</li>
+                </ul>
+                <div class="mt-4">
+                  <a href="#" class="text-white fs-4 me-3"><i class="bi bi-facebook"></i></a>
+                  <a href="#" class="text-white fs-4 me-3"><i class="bi bi-twitter"></i></a>
+                  <a href="#" class="text-white fs-4 me-3"><i class="bi bi-instagram"></i></a>
+                  <a href="#" class="text-white fs-4"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              
+              <!-- Right Form -->
+              <div class="col-md-7 form-panel p-5">
+                <h2 class="fw-bold text-purple mb-4">Send a Message</h2>
+                <form>
+                  <div class="mb-3">
+                    <label for="name" class="form-label">Full Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="email" class="form-label">Email Address</label>
+                    <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="5" placeholder="Write your message here..." required></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-gradient px-4 py-2">Send Message</button>
+                </form>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer-section py-4 bg-gradient-purple text-white">
+    <div class="container text-center">
+      <p class="mb-0">&copy; 2025 PurpleElegance. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
